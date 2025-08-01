@@ -24,5 +24,8 @@ jobs:
       - name: Install dependencies
         run: npm install
 
+      - name: Install Cypress binary
+        run: npx cypress install
+
       - name: Run API tests
-        run: npm test
+        run: npx cypress run
