@@ -1,0 +1,7 @@
+{
+    "getUsers": "users?page=2",
+    "createUser": "users",
+    "updateUser": "users/2",
+    "deleteUser":  "users/2"
+
+}
